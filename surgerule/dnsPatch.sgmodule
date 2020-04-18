@@ -2,4 +2,4 @@
 #!desc=DNS for iOS
 #!system=ios
 [General]
-dns-server = https://dns.nextdns.io/79cbce,https://dns.quad9.net/dns-query,https://doh.opendns.com/dns-query,https://cloudflare-dns.com/dns-query,https://dns.rubyfish.cn/dns-query, https://v6.rubyfish.cn/dns-query,https://dns.adguard.com/dns-query, https://223.5.5.5/dns-query, https://223.6.6.6/dns-query,https://1.1.1.1/dns-query, https://1.0.0.1/dns-query
+dns-server = https://cloudflare-dns.com/dns-query,https://dns.rubyfish.cn/dns-query, https://v6.rubyfish.cn/dns-query,https://dns.adguard.com/dns-query, https://223.5.5.5/dns-query, https://223.6.6.6/dns-query,https://1.1.1.1/dns-query, https://1.0.0.1/dns-query
