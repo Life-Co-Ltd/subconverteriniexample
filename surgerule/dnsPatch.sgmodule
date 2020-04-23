@@ -2,4 +2,4 @@
 #!desc=DNS for iOS
 #!system=ios
 [General]
-dns-server = https://dns.alidns.com/dns-query,https://dns.nextdns.io/79cbce,https://dns.rubyfish.cn/dns-query
+dns-server = https://dns.alidns.com/dns-query,https://dns.rubyfish.cn/dns-query,https://dns.adguard.com/dns-query
