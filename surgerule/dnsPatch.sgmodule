@@ -2,7 +2,11 @@
 #!desc=DNS for iOS
 #!system=ios
 [General]
-dns-server = https://dns.alidns.com/dns-query,https://dns.rubyfish.cn/dns-query,https://dns.adguard.com/dns-query
+dns-server=system,223.5.5.5,114.114.114.114
+doh-server = https://dns.alidns.com/dns-query,https://dns.rubyfish.cn/dns-query,https://dns.adguard.com/dns-query
+doh-follow-outbound-mode = true
+tls-provider=openssl
+ipv6=true
 [Host]
 taobao.com = server:223.6.6.6
 *.taobao.com = server:223.6.6.6
