@@ -35,3 +35,7 @@ hdslb.com = server:119.29.29.29
 *.126.net = server:119.29.29.29
 *.127.net = server:119.29.29.29
 *.netease.com = server:119.29.29.29
+#!desc=野比去广告15w合集
+[RULE]
+#野比去广告
+DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Huge_AD_rules.list,REJECT
