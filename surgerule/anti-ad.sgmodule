@@ -1,0 +1,8 @@
+#!name=anti-ad selflist
+#!desc=anti-ad selflist
+#!system=ios
+[URL Rewrite]
+^https?://(www.)?zhihu.com/api/.+/community-ad/.+? reject
+^https?://api.zhihu.com/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset)),REJECT
+[MITM]
+hostname = *.zhihu.com
