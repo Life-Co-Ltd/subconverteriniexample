@@ -1,0 +1,8 @@
+#acclerate OneNote service
+#通用
+DOMAIN-SUFFIX,onenote.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,azurewebsites.net
