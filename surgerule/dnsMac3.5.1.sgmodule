@@ -9,7 +9,7 @@ ipv6=true
 loglevel=notify
 skip-proxy=127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
 tls-provider = network-framework
-doh-server = https://dns.alidns.com/dns-query,https://cloudflare-dns.com/dns-query,https://dns.google/dns-query,https://dns.rubyfish.cn/dns-query
+doh-server = https://dns.alidns.com/dns-query,https://dns.rubyfish.cn/dns-query,https://dns.nextdns.io/79cbce,https://dns.adguard.com/dns-query
 doh-follow-outbound-mode = true
 [Host]
 taobao.com = server:223.6.6.6
