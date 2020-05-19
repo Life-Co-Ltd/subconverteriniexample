@@ -1,0 +1,6 @@
+#!name=antiAD-ios
+#!desc=antiAD-ios
+#!system=ios
+[Rule]
+DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt,REJECT
+DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block_Plus.txt,REJECT
