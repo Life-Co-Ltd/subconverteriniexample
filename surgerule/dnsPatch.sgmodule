@@ -2,12 +2,37 @@
 #!desc=DNS for iOS
 #!system=ios
 [General]
+bypass-system = true
+loglevel = notify
+replica = false
 dns-server=system,223.5.5.5,114.114.114.114
 doh-server = https://dns.nextdns.io/79cbce,https://dns.adguard.com/dns-query
 doh-follow-outbound-mode = true
 tls-provider=network-framework
 ipv6=true
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, localhost, *.local, *.crashlytics.com
+tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+tun-included-routes = 192.168.1.12/32
+always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com
+hijack-dns = 8.8.8.8:53, 8.8.4.4:53
+http-listen = 0.0.0.0:8888
+socks5-listen = 0.0.0.0:8889
+wifi-access-http-port = 8888
+wifi-access-socks5-port = 8889
+external-controller-access = lhie1@0.0.0.0:6170
+internet-test-url = http://www.aliyun.com
+proxy-test-url = http://cp.cloudflare.com/generate_204
+test-timeout = 5
+
+[Replica]
+hide-apple-request = true
+hide-crashlytics-request = true
+hide-udp = false
+keyword-filter-type = false
+
 [Host]
+ip6-localhost = ::1
+ip6-loopback = ::1
 taobao.com = server:223.6.6.6
 *.taobao.com = server:223.6.6.6
 tmall.com = server:223.6.6.6
@@ -31,3 +56,15 @@ hdslb.com = server:119.29.29.29
 *.126.net = server:119.29.29.29
 *.127.net = server:119.29.29.29
 *.netease.com = server:119.29.29.29
+mi.com = server:119.29.29.29
+*.mi.com = server:119.29.29.29
+xiaomi.com = server:119.29.29.29
+*.xiaomi.com = server:119.29.29.29
+dler.cloud = server:180.76.76.76
+dleris.best = server:180.76.76.76
+routerlogin.net = server:system
+_hotspot_.m2m = server:system
+router.asus.com = server:system
+hotspot.cslwifi.com = server:system
+amplifi.lan = server:system
+*.lan = server:system
