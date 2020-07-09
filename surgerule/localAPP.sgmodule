@@ -1,0 +1,5 @@
+#!name=localAPP
+#!desc=localAPP
+#!system=mac
+[Rule]
+PROCESS-NAME,/Applications/Mail.app/Contents/MacOS/Mail,🚀 节点选择
