@@ -1,5 +1,5 @@
-#!name=DNS 3.5.1 for Mac
-#!desc=DNS 3.5.1 for Mac
+#!name=DNS 4 Mac
+#!desc=DNS 4 Mac
 #!system=mac
 [General]
 bypass-system=true
