@@ -1,6 +1,6 @@
 #!name=DNS4iOS
 #!desc=DNS4iOS
-#!system=mac
+#!system=ios
 [General]
 bypass-system=true
 loglevel = notify
