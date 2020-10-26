@@ -15,6 +15,7 @@ doh-format = wireformat
 internet-test-url = http://www.aliyun.com
 proxy-test-url = http://cp.cloudflare.com/generate_204
 test-timeout = 5
+always-real-ip = %APPEND% vpn.syr.edu
 
-[Host]
-*.syr.edu= server:https://doh.opendns.com/dns-query
+#[Host]
+#*.syr.edu= server:https://doh.opendns.com/dns-query
